@@ -109,7 +109,7 @@ inputChooseSum.addEventListener('input', function(){
         appData.yearIncome = sum/100*percent;
 
         monthSavingsValue.textContent = appData.monthIncome.toFixed(1);
-        yearSavingsValue.textContent = appData.monthIncome.toFixed(1);
+        yearSavingsValue.textContent = appData.yearIncome.toFixed(1);
     }
 });
 
@@ -122,7 +122,7 @@ inputChoosePercent.addEventListener('input', function(){
         appData.yearIncome = sum/100*percent;
 
         monthSavingsValue.textContent = appData.monthIncome.toFixed(1);
-        yearSavingsValue.textContent = appData.monthIncome.toFixed(1);
+        yearSavingsValue.textContent = appData.yearIncome.toFixed(1);
     }
 });
 
